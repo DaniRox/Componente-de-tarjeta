@@ -1,0 +1,126 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap");
+html {
+  font-size: 16px;
+}
+@media screen and (min-width: 480px) {
+  html {
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 770px) {
+  html {
+    font-size: 20px;
+  }
+}
+@media screen and (min-width: 1100px) {
+  html {
+    font-size: 22px;
+  }
+}
+
+.body {
+  background-color: hsl(0, 0%, 95%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+}
+@media screen and (min-width: 1100px) {
+  .body {
+    justify-content: center;
+  }
+}
+
+.attribution {
+  position: relative;
+  bottom: 0;
+}
+@media screen and (min-width: 1100px) {
+  .attribution {
+    position: absolute;
+  }
+}
+
+.cards-container {
+  display: flex;
+  flex-direction: column;
+  margin: 5rem;
+}
+.cards-container .card {
+  width: 19.1rem;
+  height: auto;
+}
+.cards-container .card .card__container {
+  padding: 3.5rem 3rem;
+}
+.cards-container .card .card__container .card__title {
+  font-size: 2.6rem;
+  font-family: "Big Shoulders Display", cursive;
+  color: hsl(0, 0%, 95%);
+  margin: 1.5rem 0;
+}
+.cards-container .card .card__container .card__txt {
+  font-size: 0.9rem;
+  font-family: "Lexend Deca", sans-serif;
+  font-weight: "Lexend Deca", sans-serif;
+  line-height: 1.8;
+  color: hsla(0, 0%, 100%, 0.75);
+}
+.cards-container .card .card__container .card__btn {
+  width: 9rem;
+  height: 3rem;
+  border: none;
+  background-color: hsl(0, 0%, 95%);
+  border-radius: 2rem;
+  margin-top: 1.5rem;
+}
+.cards-container .card .card__container .card__btn-link {
+  text-decoration: none;
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 0.9rem;
+  font-weight: 400;
+}
+@media screen and (min-width: 1100px) {
+  .cards-container {
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+
+.card--sedan {
+  background-color: hsl(31, 77%, 52%);
+  border-radius: 0.6rem 0.6rem 0 0;
+}
+@media screen and (min-width: 1100px) {
+  .card--sedan {
+    border-radius: 0.6rem 0 0 0.6rem;
+  }
+}
+
+.card--suvs {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.card--luxury {
+  background-color: hsl(179, 100%, 13%);
+  border-radius: 0 0 0.6rem 0.6rem;
+}
+@media screen and (min-width: 1100px) {
+  .card--luxury {
+    flex-direction: row;
+    border-radius: 0 0.6rem 0.6rem 0;
+  }
+}
+
+.card__btn-link--sedans {
+  color: hsl(31, 77%, 52%);
+}
+
+.card__btn-link--suvs {
+  color: hsl(184, 100%, 22%);
+}
+
+.card__btn-link--luxury {
+  color: hsl(179, 100%, 13%);
+}/*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,51 @@
+@use "media-queries";
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+
+$bright-orange: hsl(31, 77%, 52%);
+$dark-cyan: hsl(184, 100%, 22%);
+$very-dark-cyan: hsl(179, 100%, 13%);
+$transparent-white: hsla(0, 0%, 100%, 0.75);
+$very-light-gray: hsl(0, 0%, 95%);
+
+$lexend: 'Lexend Deca', sans-serif;
+$big-shoulders: 'Big Shoulders Display', cursive;
+
+html {
+    font-size: 16px;
+
+    @include media-queries.tablet {
+        font-size: 18px;
+    }
+
+    @include media-queries.desktop-s {
+        font-size: 20px;
+    }
+
+    @include media-queries.desktop {
+        font-size: 22px;
+    }
+}
+
+.body {
+    background-color: $very-light-gray;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+
+    @include media-queries.desktop {
+        justify-content: center;
+    }
+}
+
+.attribution {
+    position: relative;
+    bottom: 0;
+
+    @include media-queries.desktop {
+        position: absolute;
+    }
+}

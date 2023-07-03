@@ -1,0 +1,96 @@
+@use "media-queries";
+
+@use "globales";
+
+.cards-container {
+    display: flex;
+    flex-direction: column;
+    margin: 5rem;
+
+    .card {
+        width: 19.1rem;
+        height: auto;
+
+
+        .card__container {
+            padding: 3.5rem 3rem;
+
+            .card__title {
+                font-size: 2.6rem;
+                font-family: globales.$big-shoulders;
+                color: globales.$very-light-gray;
+                margin: 1.5rem 0;
+                
+            }
+        
+            .card__txt {
+                font-size: 0.9rem;
+                font-family: globales.$lexend;
+                font-weight: globales.$lexend;
+                line-height: 1.8;
+                
+                color: globales.$transparent-white;
+            }
+        
+            .card__btn {
+                width: 9rem;
+                height: 3rem;
+                border: none;
+                background-color: globales.$very-light-gray;
+                border-radius: 2rem;
+                margin-top: 1.5rem;
+            }
+        
+            .card__btn-link {
+                text-decoration: none;
+                font-family: globales.$lexend;
+                font-size: 0.9rem;
+                font-weight: 400;
+            }
+        }
+    }
+
+    @include media-queries.desktop {
+        flex-direction: row;
+        justify-content: center;
+    }
+}
+
+
+.card--sedan {
+    background-color: globales.$bright-orange;
+    border-radius: 0.6rem 0.6rem 0 0;
+
+    @include media-queries.desktop {
+        border-radius: 0.6rem 0 0 0.6rem;
+    }
+}
+
+.card--suvs {
+    background-color: globales.$dark-cyan;
+
+}
+
+.card--luxury {
+    background-color: globales.$very-dark-cyan;
+    border-radius: 0 0 0.6rem 0.6rem;
+
+    @include media-queries.desktop {
+        flex-direction: row;
+        border-radius: 0 0.6rem 0.6rem 0;
+    }
+}
+
+
+.card__btn-link--sedans {
+    color: globales.$bright-orange;
+
+}
+
+.card__btn-link--suvs {
+    color: globales.$dark-cyan;
+}
+
+.card__btn-link--luxury {
+    color: globales.$very-dark-cyan;
+}
