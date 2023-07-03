@@ -45,28 +45,37 @@ html {
     position: relative;
     bottom: 0;
     font-family: $lexend;
-    font-size: 1rem;
+    font-size: 0.8rem;
+
+    @include media-queries.tablet {
+        font-size: 0.9rem;
+    }
+        
+    @include media-queries.desktop-s {
+        font-size: 1rem;
+    }
 
     @include media-queries.desktop {
         position: absolute;
+        font-size: 1.1rem;
     }
 
     a {
         text-decoration: none;
         font-family: $lexend;
         color: $dark-cyan;
-        font-size: 0.8rem;
+        font-size: 1rem;
 
         @include media-queries.tablet {
-            font-size: 0.9rem;
+            font-size: 1.1rem;
         }
     
         @include media-queries.desktop-s {
-            font-size: 1rem;
+            font-size: 1.2rem;
         }
     
         @include media-queries.desktop {
-            font-size: 1.2rem;
+            font-size: 1.3rem;
         }
     }
 }
