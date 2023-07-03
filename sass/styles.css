@@ -33,7 +33,7 @@ html {
 
 .attribution {
   position: relative;
-  bottom: 0;
+  bottom: 0.1rem;
   font-family: "Lexend Deca", sans-serif;
   font-size: 0.8rem;
 }
