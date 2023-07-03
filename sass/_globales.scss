@@ -55,6 +55,18 @@ html {
         text-decoration: none;
         font-family: $lexend;
         color: $dark-cyan;
-        font-size: 1.2rem;
+        font-size: 0.8rem;
+
+        @include media-queries.tablet {
+            font-size: 0.9rem;
+        }
+    
+        @include media-queries.desktop-s {
+            font-size: 1rem;
+        }
+    
+        @include media-queries.desktop {
+            font-size: 1.2rem;
+        }
     }
 }
