@@ -44,8 +44,17 @@ html {
 .attribution {
     position: relative;
     bottom: 0;
+    font-family: $lexend;
+    font-size: 1rem;
 
     @include media-queries.desktop {
         position: absolute;
+    }
+
+    a {
+        text-decoration: none;
+        font-family: $lexend;
+        color: $dark-cyan;
+        font-size: 1.2rem;
     }
 }
