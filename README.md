@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./images/Captura%20de%20pantalla%20-2023-07-03%2013-22-08.png)
+![](./images/Captura.png)
 
 
 
