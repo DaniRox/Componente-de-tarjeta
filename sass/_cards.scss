@@ -20,7 +20,6 @@
                 font-family: globales.$big-shoulders;
                 color: globales.$very-light-gray;
                 margin: 1.5rem 0;
-                
             }
         
             .card__txt {
@@ -28,24 +27,26 @@
                 font-family: globales.$lexend;
                 font-weight: globales.$lexend;
                 line-height: 1.8;
-                
                 color: globales.$transparent-white;
             }
         
-            .card__btn {
-                width: 9rem;
-                height: 3rem;
-                border: none;
-                background-color: globales.$very-light-gray;
-                border-radius: 2rem;
-                margin-top: 1.5rem;
-            }
+
         
             .card__btn-link {
                 text-decoration: none;
-                font-family: globales.$lexend;
-                font-size: 0.9rem;
-                font-weight: 400;
+
+                .card__btn {
+                    font-family: globales.$lexend;
+                    font-size: 0.9rem;
+                    font-weight: 400;
+                    width: 9rem;
+                    height: 3rem;
+                    border: none;
+                    background-color: globales.$very-light-gray;
+                    border-radius: 2rem;
+                    margin-top: 1.5rem;
+                    cursor: pointer;
+                }
             }
         }
     }
@@ -82,15 +83,14 @@
 }
 
 
-.card__btn-link--sedans {
+.card__btn--sedans {
     color: globales.$bright-orange;
-
 }
 
-.card__btn-link--suvs {
+.card__btn--suvs {
     color: globales.$dark-cyan;
 }
 
-.card__btn-link--luxury {
+.card__btn--luxury {
     color: globales.$very-dark-cyan;
 }

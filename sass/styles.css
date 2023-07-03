@@ -102,19 +102,20 @@ html {
   line-height: 1.8;
   color: hsla(0, 0%, 100%, 0.75);
 }
-.cards-container .card .card__container .card__btn {
+.cards-container .card .card__container .card__btn-link {
+  text-decoration: none;
+}
+.cards-container .card .card__container .card__btn-link .card__btn {
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 0.9rem;
+  font-weight: 400;
   width: 9rem;
   height: 3rem;
   border: none;
   background-color: hsl(0, 0%, 95%);
   border-radius: 2rem;
   margin-top: 1.5rem;
-}
-.cards-container .card .card__container .card__btn-link {
-  text-decoration: none;
-  font-family: "Lexend Deca", sans-serif;
-  font-size: 0.9rem;
-  font-weight: 400;
+  cursor: pointer;
 }
 @media screen and (min-width: 1100px) {
   .cards-container {
@@ -148,14 +149,14 @@ html {
   }
 }
 
-.card__btn-link--sedans {
+.card__btn--sedans {
   color: hsl(31, 77%, 52%);
 }
 
-.card__btn-link--suvs {
+.card__btn--suvs {
   color: hsl(184, 100%, 22%);
 }
 
-.card__btn-link--luxury {
+.card__btn--luxury {
   color: hsl(179, 100%, 13%);
 }/*# sourceMappingURL=styles.css.map */
