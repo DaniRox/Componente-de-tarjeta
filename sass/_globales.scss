@@ -20,11 +20,11 @@ html {
     }
 
     @include media-queries.desktop-s {
-        font-size: 19px;
+        font-size: 18px;
     }
 
     @include media-queries.desktop {
-        font-size: 20px;
+        font-size: 19px;
     }
 }
 
