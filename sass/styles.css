@@ -36,6 +36,8 @@ html {
   bottom: 0.1rem;
   font-family: "Lexend Deca", sans-serif;
   font-size: 0.8rem;
+  display: flex;
+  flex-direction: row;
 }
 @media screen and (min-width: 480px) {
   .attribution {

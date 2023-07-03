@@ -45,6 +45,8 @@ html {
     bottom: 0.1rem;
     font-family: $lexend;
     font-size: 0.8rem;
+    display: flex;
+    flex-direction: row;
 
     @include media-queries.tablet {
         font-size: 0.9rem;
