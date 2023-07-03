@@ -32,7 +32,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Add solution URL here](https://www.frontendmentor.io/solutions/sass-flexbox-g4q1URbm7g)
 - Live Site URL: [Add live site URL here](https://danirox.github.io/Componente-de-tarjeta/)
 
 ## My process
