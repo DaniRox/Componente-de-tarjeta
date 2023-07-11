@@ -59,6 +59,6 @@ En este proyecto pude comprender e implementar el uso del cambio de tamaño de f
 
 ## Author
 
-- Website - [Add your name here](https://danirox.github.io/DaniRox-Portfolio/)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/DaniRox)
+- Website - [DaniRox](https://danirox.github.io/DaniRox-Portfolio/)
+- Frontend Mentor - [@DaniRox](https://www.frontendmentor.io/profile/DaniRox)
 
