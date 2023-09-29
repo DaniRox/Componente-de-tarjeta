@@ -14,18 +14,6 @@ $big-shoulders: 'Big Shoulders Display', cursive;
 
 html {
     font-size: 16px;
-
-    @include media-queries.tablet {
-        font-size: 16px;
-    }
-
-    @include media-queries.desktop-s {
-        font-size: 17px;
-    }
-
-    @include media-queries.desktop {
-        font-size: 18px;
-    }
 }
 
 .body {
